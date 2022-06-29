@@ -48,27 +48,27 @@ app.get('/', (request, response) => {
 });
 
 app.get('/basic', (request, response) => {
-  response.render('examples/basic.html');
+  response.render('basic.html');
 });
 
 app.get('/webvr-video', (request, response) => {
-  response.render('examples/webvr-video.html');
+  response.render('webvr-video.html');
 });
 
 app.get('/shapes', (request, response) => {
-  response.render('examples/shapes.html');
+  response.render('shapes.html');
 });
 
 app.get('/album', (request, response) => {
-  response.render('examples/album.html');
+  response.render('album.html');
 });
 
 app.get('/two-and-a-half-d', (request, response) => {
-  response.render('examples/two-and-a-half-d.html');
+  response.render('two-and-a-half-d.html');
 });
 
 app.get('/depthkit', (request, response) => {
-  response.render('examples/depthkit.html');
+  response.render('depthkit.html');
 });
 
 // The route for getting videos from the vimeo API
