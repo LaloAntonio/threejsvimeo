@@ -44,31 +44,31 @@ app.use(hostValidation({ hosts: [`127.0.0.1:${process.env.PORT}`,
 
 
 app.get('/', (request, response) => {
-  response.render('basic.html');
+  response.render('examples/basic.html');
 });
 
 app.get('/basic', (request, response) => {
-  response.render('basic.html');
+  response.render('examples/basic.html');
 });
 
 app.get('/webvr-video', (request, response) => {
-  response.render('webvr-video.html');
+  response.render('examples/webvr-video.html');
 });
 
 app.get('/shapes', (request, response) => {
-  response.render('shapes.html');
+  response.render('examples/shapes.html');
 });
 
 app.get('/album', (request, response) => {
-  response.render('album.html');
+  response.render('examples/album.html');
 });
 
 app.get('/two-and-a-half-d', (request, response) => {
-  response.render('two-and-a-half-d.html');
+  response.render('examples/two-and-a-half-d.html');
 });
 
 app.get('/depthkit', (request, response) => {
-  response.render('depthkit.html');
+  response.render('examples/depthkit.html');
 });
 
 // The route for getting videos from the vimeo API
