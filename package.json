@@ -4,7 +4,7 @@
   "description": "A video player for rendering Vimeo videos in three.js",
   "main": "dist/vimeo-threejs-player.js",
   "engines": {
-    "node": ">=0.12"
+    "node": "16.x"
   },
   "scripts": {
     "start": "node assets/js/readme-glitch-fix.js && node server.js",
