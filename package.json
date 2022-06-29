@@ -1,13 +1,13 @@
 {
   "name": "vimeo-threejs-player",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A video player for rendering Vimeo videos in three.js",
   "main": "dist/vimeo-threejs-player.js",
   "engines": {
-    "node": "16.x"
+    "node": "12.11.1"
   },
   "scripts": {
-    "start": "node assets/js/readme-glitch-fix.js && node server.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "format": "standard src/**/*.js --fix",
     "docs": "documentation build src/**/*.js -f md -o API.md",
